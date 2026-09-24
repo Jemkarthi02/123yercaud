@@ -1,0 +1,6 @@
+{
+  "name": "123 Yercaud - Local Business Directory, Resorts & Travel Yellow Pages",
+  "description": "Yercaud's premier online yellow pages and local search engine to discover verified resorts, homestays, coffee estates, tour cabs, restaurants, and emergency contacts across Yercaud.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

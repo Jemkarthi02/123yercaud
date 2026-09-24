@@ -1,0 +1,82 @@
+import { BusinessInquiry } from '../types';
+
+export const INITIAL_INQUIRIES: BusinessInquiry[] = [
+  {
+    id: 'inq-101',
+    businessId: 'res-1',
+    businessName: 'Grand Palace Hotel & Spa Yercaud',
+    category: 'Resorts & Cottages',
+    userName: 'Karthik Sridhar',
+    userPhone: '+91 98401 23456',
+    userEmail: 'karthik.s@gmail.com',
+    requirement: 'Need 2 Valley-view rooms for 4 adults and 2 children for coming Saturday & Sunday. Need bonfire and buffet dinner.',
+    locality: 'Killiyur Falls Road',
+    date: 'Today',
+    time: '10:45 AM',
+    status: 'new',
+    source: 'detail_enquiry',
+    notes: 'Called customer, confirmed availability enquiry'
+  },
+  {
+    id: 'inq-102',
+    businessId: 'cab-1',
+    businessName: 'Yercaud Ghat Sightseeing Cabs',
+    category: 'Tour & Travel Cabs',
+    userName: 'Priya Meenakshi',
+    userPhone: '+91 94440 98712',
+    userEmail: 'priya.m@techcorp.in',
+    requirement: 'Pickup from Salem Junction railway station on Friday morning 6:30 AM, 3-day complete Yercaud viewpoint tour (Lady\'s Seat, Pagoda Point, Botanical Garden) and drop back.',
+    locality: 'Bus Stand & Lake Circle',
+    date: 'Today',
+    time: '08:20 AM',
+    status: 'contacted',
+    source: 'email_sms',
+    notes: 'Quoted Innova tariff of Rs. 4,500/day'
+  },
+  {
+    id: 'inq-103',
+    businessId: 'adv-1',
+    businessName: 'R. Soundararajan, B.A., B.L. Senior Advocate',
+    category: 'Advocates',
+    userName: 'M. Venkatesh',
+    userPhone: '+91 97890 55432',
+    userEmail: 'venkat.estates@yahoo.com',
+    requirement: 'Need legal title deed search and verification for 2.5 acres coffee estate purchase in Pagoda Point area. Please share appointment timing.',
+    locality: 'Sub-Registrar Office Road',
+    date: 'Yesterday',
+    time: '04:15 PM',
+    status: 'new',
+    source: 'detail_enquiry',
+    notes: 'High priority property search document check'
+  },
+  {
+    id: 'inq-104',
+    businessId: 'cof-1',
+    businessName: 'MSP Coffee Estate & Plantation Roastery',
+    category: 'Coffee & Spices',
+    userName: 'Anand Kumar',
+    userPhone: '+91 99620 11223',
+    userEmail: 'anand.cafe@chennaicoffee.com',
+    requirement: 'Want to place bulk sample order of 25kg single-origin roasted Arabica beans and authentic Yercaud pepper for our artisanal cafe in Coimbatore.',
+    locality: 'Tipperary Road',
+    date: '2 days ago',
+    time: '02:30 PM',
+    status: 'resolved',
+    source: 'email_sms',
+    notes: 'Order dispatched via courier on 19th Sep'
+  },
+  {
+    id: 'inq-105',
+    category: 'Resorts & Cottages',
+    userName: 'Divya Ramesh',
+    userPhone: '+91 98845 77661',
+    userEmail: 'divya.ramesh@outlook.com',
+    requirement: 'Looking for a private family cottage with kitchen facility and lawn space near Lake Road for 6 people.',
+    locality: 'Lake Road & Boathouse',
+    date: '3 days ago',
+    time: '11:10 AM',
+    status: 'resolved',
+    source: 'post_requirement',
+    notes: 'Connected with Sterling & Shevaroy Hill cottages'
+  }
+];

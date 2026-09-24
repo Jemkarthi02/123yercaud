@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Custom Red Scrollbar for 123 Portal Sidebars */
+.custom-red-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-red-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.custom-red-scrollbar::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 4px;
+}
+
+.custom-red-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+}
